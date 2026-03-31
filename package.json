@@ -7,7 +7,7 @@
     "README.md",
     "LICENSE"
   ],
-"scripts": {
+  "scripts": {
     "build": "tsc",
     "dev": "npx ts-node src/agent.ts",
     "search": "npx ts-node src/test-duck.ts",
@@ -22,7 +22,7 @@
     "test": "jest --testTimeout=30000",
     "test:watch": "jest --watch",
     "test:docker": "jest src/__tests__/docker.test.ts --testTimeout=300000"
-}
+  },
   "keywords": [],
   "author": "Jina AI",
   "license": "Apache-2.0",
